@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "test-repeating-rows-client-side-solution",
+    "id": "e15b2d3f-9441-4dbc-aa4c-71c36fa5f404",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TestRepeatingRows description"
+      },
+      "longDescription": {
+        "default": "TestRepeatingRows description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "test-repeating-rows Feature",
+        "description": "The feature that activates elements of the test-repeating-rows solution.",
+        "id": "6a35c4ca-49b6-46d2-ad24-21605a3c6d3a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/test-repeating-rows.sppkg"
+  }
+}
